@@ -1,0 +1,4 @@
+ACTION=="add", SUBSYSTEM=="iio", RUN+="/bin/chmod g+w /sys/bus/iio/devices/iio:device0/in_voltage3_scale"
+ACTION=="add", SUBSYSTEM=="iio", RUN+="/bin/chmod g+w /sys/bus/iio/devices/iio:device0/in_voltage4_scale"
+ACTION=="add", SUBSYSTEM=="iio", RUN+="/bin/chmod g+w /sys/bus/iio/devices/iio:device0/in_voltage3_raw"
+ACTION=="add", SUBSYSTEM=="iio", RUN+="/bin/chmod g+w /sys/bus/iio/devices/iio:device0/in_voltage4_raw"
