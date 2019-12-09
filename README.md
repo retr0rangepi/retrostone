@@ -3,6 +3,8 @@
 * armbian-firstrun - enables Mali out-of-the-tree module and Bluetooth service : /usr/lib/armbian
 *	btpatch.tar.gz - Broadcom utility to flash Bluetooth firmwares - must be extracted to /
 *	e.py - Python script for controller buttons testing
+* GuiMenu.cpp - EmulationStation GUI menu source file
+* GuiMenu.h - EmulationStation GUI menu header
 *	gpio_retrostone2-production-with-brightness.py - Enables the Retrostone GPIO controls - /home/pi/RetrOrangePi/GPIO/drivers/tz_gpio_controller.py
 *	joystick.rules - UDEV rule to give write privileges to input : /etc/udev/rules.d/ (not tested yet)
 * kernel-sunxi-current.patch - Armbian kernel patch (v5.3.13)
